@@ -13,6 +13,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://redstone.biz" # the base hostname & protocol for your site
 github_username: galigalikun
+remote_theme: benbalter/retlab
+
+# Plugin
+plugins:
+  - jekyll-remote-theme
 
 # Build settings
 markdown: kramdown
